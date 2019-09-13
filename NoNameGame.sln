@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoNameGame", "NoNameGame\NoNameGame\NoNameGame.csproj", "{FD6B103B-9F1E-40B6-8215-76E4F406CC74}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "NoNameGameContent", "NoNameGame\NoNameGameContent\NoNameGameContent.contentproj", "{45D0AA8B-15A0-4FEF-AC3A-59450A6C7678}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD6B103B-9F1E-40B6-8215-76E4F406CC74}.Debug|x86.ActiveCfg = Debug|x86
+		{FD6B103B-9F1E-40B6-8215-76E4F406CC74}.Debug|x86.Build.0 = Debug|x86
+		{FD6B103B-9F1E-40B6-8215-76E4F406CC74}.Release|x86.ActiveCfg = Release|x86
+		{FD6B103B-9F1E-40B6-8215-76E4F406CC74}.Release|x86.Build.0 = Release|x86
+		{45D0AA8B-15A0-4FEF-AC3A-59450A6C7678}.Debug|x86.ActiveCfg = Debug|x86
+		{45D0AA8B-15A0-4FEF-AC3A-59450A6C7678}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

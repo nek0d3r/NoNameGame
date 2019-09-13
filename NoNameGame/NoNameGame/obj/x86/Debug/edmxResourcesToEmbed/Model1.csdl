@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SavesModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="SavesEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Data" EntityType="SavesModel.Datum" />
+  </EntityContainer>
+  <EntityType Name="Datum">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="difficulty" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="territory" Type="Int32" Nullable="false" />
+    <Property Name="units" Type="Int32" Nullable="false" />
+  </EntityType>
+</Schema>

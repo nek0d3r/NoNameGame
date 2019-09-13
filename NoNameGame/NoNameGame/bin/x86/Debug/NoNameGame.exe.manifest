@@ -1,0 +1,1790 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="NoNameGame.exe" version="1.0.0.3" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="Game.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="NoNameGame" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="NoNameGame.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Xna.Framework" version="4.0.0.0" publicKeyToken="842CF8BE1DE50553" language="neutral" processorArchitecture="x86" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Xna.Framework.Avatar" version="4.0.0.0" publicKeyToken="842CF8BE1DE50553" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Xna.Framework.Game" version="4.0.0.0" publicKeyToken="842CF8BE1DE50553" language="neutral" processorArchitecture="x86" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Xna.Framework.GamerServices" version="4.0.0.0" publicKeyToken="842CF8BE1DE50553" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Xna.Framework.Graphics" version="4.0.0.0" publicKeyToken="842CF8BE1DE50553" language="neutral" processorArchitecture="x86" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Xna.Framework.Input.Touch" version="4.0.0.0" publicKeyToken="842CF8BE1DE50553" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Xna.Framework.Net" version="4.0.0.0" publicKeyToken="842CF8BE1DE50553" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Xna.Framework.Storage" version="4.0.0.0" publicKeyToken="842CF8BE1DE50553" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Xna.Framework.Video" version="4.0.0.0" publicKeyToken="842CF8BE1DE50553" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Xna.Framework.Xact" version="4.0.0.0" publicKeyToken="842CF8BE1DE50553" language="neutral" processorArchitecture="x86" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NoNameGame.exe" size="62464">
+      <assemblyIdentity name="NoNameGame" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>WP+vRI+1p2HOVz48t0uj0xvRvUI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Content\Audio\attack.xnb" size="35385">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Qoc89VOaLOCMuSkG5rgWtO0dx/w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Audio\click.xnb" size="9321">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Tcks7iLQYk8LhBBdl3jf6y2t9sU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Audio\maintheme.wma" size="4004735">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>BrOGwMgNQl6rcXUy2k9t7bYwmc0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Audio\maintheme.xnb" size="127">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>jwKU58ibwqsDmVK1g4PxVsxnzgc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Audio\menuselect.xnb" size="595457">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>+dLWwwwUxH4G5ccxZeIDtWLPdPs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Audio\sell.xnb" size="294293">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>CqUfoxVofZajsc5MAVmn0wg5ROU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Audio\type.xnb" size="17853">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>rXRUcpzqL7BbB5r/Wxe5MVQIQRY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Assets\castle.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>rlYzO9qSu8/saM/v549qGs7GEEg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Assets\mountain.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>qQzBM7wJDD3Tg/cG9m9MoOSmRuA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Assets\tree.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>dYBiSc5PbWqka8ECuskDO07nAUY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Cursors\cursor.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>TBnblPus6x1M+x0StJBzbdC1qno=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Fonts\Buttons.xnb" size="22190">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>SgN+knt3gFjCXFbUFPllTDypP64=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Menus\Grid\allydot.xnb" size="383">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>/gWbp+3ZfjE4JTAQs8PGEff0Cec=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Menus\Grid\enemydot.xnb" size="383">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Np7/PZMn4A/kBNSzMNWQbbJtdvE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Menus\Grid\grid.xnb" size="96487">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>wXuBQ00ZIgYHvnFqJpRDP7aB+Uk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Menus\Grid\npcdot.xnb" size="383">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>wyWQrazLdjXaVVx1S0yDMEOFwRs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Menus\inventorymenu.xnb" size="1568187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>vF7dxeUWJ66rl3DPmYncGD3+xDY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Menus\leftarrow.xnb" size="7587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>xVOCZnXQyGooisVn34m+9ZfUqHY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Menus\mainmenu.xnb" size="1548371">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>6tvG3h1qmjT51dYtFsqp/k30MUQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Menus\pausemenu.xnb" size="1536187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>5/G0KIm8zStm8NCscNj24coSMTM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Menus\rightarrow.xnb" size="7587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>oLmfkMKo9KF9m0/LE09CE6daxZQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Menus\sell.xnb" size="25387">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>YcxsPXihNzLVJfQbaPouh4JYaqg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Menus\startgamemenu.xnb" size="1568187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>JhHtDwc3wfYvzDx0athCvOBEQIo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Menus\toolbox.xnb" size="307387">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>9UxqRhDa3VmFXW+tvsOeSzYgeWM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Menus\volumebar.xnb" size="747">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>1G4B4PljvBtoGHANVU1UoHq3Kcw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Menus\volumeslider.xnb" size="10187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>8eiP6Rl57f4EfqR6zihTJaTbWA0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Menus\winmenu.xnb" size="1568187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>vF7dxeUWJ66rl3DPmYncGD3+xDY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Assets\castle.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>T7nZt10eLkBtzfl+4S4NNey00Jc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Blue\attackers\Axe_Class\axe_man.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>dvdukg8FHqigdNuzqKjvCuMyn0k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Blue\attackers\Axe_Class\Character_Movements\axe_man2.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>JWnL9V0X1NI24RqlPQW0/Mttbt8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Blue\attackers\Axe_Class\Character_Movements\axe_man3.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>hCZ+5OjQ2Wm7Oqe2DbVpcJLv4D8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Blue\attackers\Axe_Class\Character_Movements\journeyman2.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>dG7QRvKt+We6ki6pTNi6lPhH2xY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Blue\attackers\Axe_Class\Character_Movements\journeyman3.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>p3zgLbTX2vx6zfogG5amWOagMKI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Blue\attackers\Axe_Class\Character_Movements\tree_man2.xnb" size="21499">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>tL3pK1/QoV1vq3TioECfEFocM0E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Blue\attackers\Axe_Class\Character_Movements\tree_man3.xnb" size="21499">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>LrDksVXJ482ggJVrRw8OEgvInPY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Blue\attackers\Axe_Class\tree_man.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>EtD96d3ZGFnf8y5QPUDrPEYb6fE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Blue\attackers\spearmen\halberd.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>7KyLDH5G7/fmvti3MFuB31J3Xwk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Blue\attackers\spearmen\spearman.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>6wD+NmNYhBVooPXwUEkHsbVMQzI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Blue\attackers\Stealth\assassin.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>y/qTPsJPbsqHsz5uKIo7fR7A1xQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Blue\attackers\Swordsman\Character_Movements\knight2.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Uj06M7/RlngKnZx2yVhlYD5XOzY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Blue\attackers\Swordsman\Character_Movements\knight3.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>DzA49Ox2LiU32f5a/5xncD5Qhto=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Blue\attackers\Swordsman\Character_Movements\swordman_better2.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>R5F0XU5oNstOW6bx6ql/yP4oaoo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Blue\attackers\Swordsman\Character_Movements\swordman_better3.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>WUOhoyZ9vTtLNy95ao0CacBkntE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Blue\attackers\Swordsman\Character_Movements\swordsman2.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>xOlQiocl68tEKEuADoeEixkQje0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Blue\attackers\Swordsman\Character_Movements\swordsman3.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>j0FHSBlmtmj19f9Daf5Wk2V9cnk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Blue\attackers\Swordsman\knight.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>2rzCP7LpJrpdrRtjOylvegr3ZHo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Blue\attackers\Swordsman\swordman_better.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>xORrGP4mbE3SLrLBhrTD1pFZ9yA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Blue\attackers\Swordsman\swordsman.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>59lSHWScPm6OH61ZCrurFs/LLsQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Green\attackers\Axe_Class\axe_man.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>N5itXrTFocaJKTbnkcLhUD+ZoMU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Green\attackers\Axe_Class\Character_Movements\axe_man2.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>JDhaEFXiISE3Kwc5YiHcw/0YiXM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Green\attackers\Axe_Class\Character_Movements\axe_man3.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>NRQ2ZQDwTeh1zjbQFcLlkEA1pyg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Green\attackers\Axe_Class\Character_Movements\journeyman2.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>DHb9xo6JXDN47MxV1E9Gx/UAUkY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Green\attackers\Axe_Class\Character_Movements\journeyman3.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>eeZy6o90Y0ZrQCw3MGqclxmF1C0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Green\attackers\Axe_Class\Character_Movements\tree_man2.xnb" size="21499">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>DBRtJ8NRzw8tZ8rTI0YtGo7YrrA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Green\attackers\Axe_Class\Character_Movements\tree_man3.xnb" size="21499">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>eMNINCENpaIpMTFw3e9R6pabp2Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Green\attackers\Axe_Class\journeyman.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>tvVcB7tlutWvDCSDNGIKoR8fzXA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Green\attackers\Axe_Class\tree_man.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Q2JzPETCw2nGtnvhV4+SmJ2hhnw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Green\attackers\spearmen\halberd.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>uygZk3XVltw44YHB4Tffe5xzjIk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Green\attackers\Stealth\assassin.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>B2u4oobRN8lr+AOG2lE0wNKhhjc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Green\attackers\Swordsman\Character_Movements\knight2.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>VNEDJFkXW6cpuxF+bC2pUlSCPaA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Green\attackers\Swordsman\Character_Movements\knight3.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>534SX+sdiLH+eHuCALEkE1ZAWgg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Green\attackers\Swordsman\Character_Movements\swordman_better2.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>UmgNlOQPcnZkA6JzzkR9C0Za08E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Green\attackers\Swordsman\Character_Movements\swordman_better3.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ec3EKoUkrekBRtXhp+vqVFAUDeU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Green\attackers\Swordsman\Character_Movements\swordsman2.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>qFdjQca+Q6MLRBvrsPGEcigjH4Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Green\attackers\Swordsman\Character_Movements\swordsman3.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>F98vbNNosiLyuL6lypbYOdqluQo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Green\attackers\Swordsman\knight.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>xC1v/E/querjolBjMn/dfaBnE6g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Green\attackers\Swordsman\swordman_better.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>HB0Mh6UmJ/gWHCPdbPH4fB59758=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Green\attackers\Swordsman\swordsman.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>iLKwyuu8As3nTMVcX+JdAcxa4hU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Light Blue\attackers\Axe_Class\axe_man.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>eCx0Kou73ZvCpvK76Itp6RB4VHA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Light Blue\attackers\Axe_Class\Character_Movements\axe_man2.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>XAvqzu7LlSuTK/DbDeMn3sIAgwQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Light Blue\attackers\Axe_Class\Character_Movements\axe_man3.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>1iZOWly+FPHuwECutZVQ3IggF0Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Light Blue\attackers\Axe_Class\Character_Movements\journeyman2.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>zmvI0Sj6RqgVBIAZc1mGcEq3HZc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Light Blue\attackers\Axe_Class\Character_Movements\journeyman3.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>UR09ZoeR9facDWzOkQWd9f5LGrg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Light Blue\attackers\Axe_Class\Character_Movements\tree_man2.xnb" size="21499">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>RN9mywMLCmL2irDpFiF2UzQi4I4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Light Blue\attackers\Axe_Class\Character_Movements\tree_man3.xnb" size="21499">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>mlscELW+/7ujlGXdliAwvIWG4cg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Light Blue\attackers\Axe_Class\journeyman.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>vvDuAvIuGWSzRbreFc9Go9uDK+U=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Light Blue\attackers\Axe_Class\tree_man.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>PnlLWjMFMDSSt0k1OlaEZVz5CDQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Light Blue\attackers\spearmen\halberd.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>SVWtFEVzaCFw+6edb2fQHCpgV5o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Light Blue\attackers\Stealth\assassin.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>rqDePfWpkDHyxR1cHbyWO/HlTvs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Light Blue\attackers\Swordsman\Character_Movements\knight2.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>60u20Uw6ptOVFoCNeO0eP/x/bYA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Light Blue\attackers\Swordsman\Character_Movements\knight3.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>To89fdyi4ECcZjnl25vPpDk/Ew4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Light Blue\attackers\Swordsman\Character_Movements\swordman_better2.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>nelBl7EMACBV5E74Jhd20QBqdKA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Light Blue\attackers\Swordsman\Character_Movements\swordman_better3.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>GttIOCFORMZ+Nact9AQhaLdMBtg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Light Blue\attackers\Swordsman\Character_Movements\swordsman2.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>32nixuW9jxOLZKhs7FijH5TPAIw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Light Blue\attackers\Swordsman\Character_Movements\swordsman3.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Sl3V2+hk52TteTh8vKTFdODHVtY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Light Blue\attackers\Swordsman\knight.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>BDHd426EpgRHicnDYkXcHpe33Cg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Light Blue\attackers\Swordsman\swordman_better.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>aGpKv4JiTJn5RhDUeLHKSB8fvhA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Light Blue\attackers\Swordsman\swordsman.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>NJ3FlHifN95/UkxuV/b/gD2tlAE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Orange\attackers\Axe_Class\axe_man.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>cpfzFWa6npU8l4tIbVpXK7foXAw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Orange\attackers\Axe_Class\Character_Movements\axe_man2.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>9bX9a7d/lz4LK+eFBfhn0h9PSpU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Orange\attackers\Axe_Class\Character_Movements\axe_man3.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>hTcV2MePNwefop4KFE6vkbOxu90=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Orange\attackers\Axe_Class\Character_Movements\journeyman2.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Q31BZgcQUyioAi8G9MgbM9Q7Rzo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Orange\attackers\Axe_Class\Character_Movements\journeyman3.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>eda6EYGOoQGUGZEggSnpM7IUjLc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Orange\attackers\Axe_Class\Character_Movements\tree_man2.xnb" size="21499">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>LmSJKqXDLMl+8HUk93XcCdNO9JE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Orange\attackers\Axe_Class\Character_Movements\tree_man3.xnb" size="21499">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ZbzxQsz6jDt6QH9XCv7y4yHRqEo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Orange\attackers\Axe_Class\journeyman.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>LjKJWnj4JjbtPZklMotyGqzUy4Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Orange\attackers\Axe_Class\tree_man.xnb" size="21499">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>XHLMiN0lEIV7qHw2y5FHs9Q/fgw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Orange\attackers\spearmen\halberd.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>JbS7DjMpVz5tAR0A1Kf3SSse0XQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Orange\attackers\Stealth\assassin.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>0JdcafhK5eR+DIxknBtPwex1QOY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Orange\attackers\Swordsman\Character_Movements\knight2.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>uLFR/cAL4N2Fi+xOHcHQrtwWgtQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Orange\attackers\Swordsman\Character_Movements\knight3.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>8MGYjcMKOwx3FEYrbRfgS5lbXpE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Orange\attackers\Swordsman\Character_Movements\swordman_better2.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>P9aUHthDN9sEsqmtVLo/LM9UMX8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Orange\attackers\Swordsman\Character_Movements\swordman_better3.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>02PcOfSO9psv8r9BgPZie3aMcJQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Orange\attackers\Swordsman\Character_Movements\swordsman2.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>eEszkuQ9DLWZIGU37ePGTD/VG/E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Orange\attackers\Swordsman\Character_Movements\swordsman3.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>jJY/Kd0tjGeDrgTOJaaB5XdSLSY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Orange\attackers\Swordsman\knight.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>DkDbMTPPzB+sY1sqA7MmXwqC8eE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Orange\attackers\Swordsman\swordman_better.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Mzh6ufjFKBwsUkLjSKwfpPpxAB4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Orange\attackers\Swordsman\swordsman.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>5zdy9YQKIhMVYP4OQNtjAMUQX2A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Pink\attackers\Axe_Class\axe_man.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>9BIAu5qVf19d3Z2nr5/7j7Ny9XA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Pink\attackers\Axe_Class\Character_Movements\axe_man2.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>VaDRKPiQiL1m2b92GyKpAnD29kw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Pink\attackers\Axe_Class\Character_Movements\axe_man3.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>f62U5G28+pFfGJfZFYsIRwnPXYA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Pink\attackers\Axe_Class\Character_Movements\journeyman2.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>HgITiTClPDhxWAY0yY0Thrq8iEQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Pink\attackers\Axe_Class\Character_Movements\journeyman3.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Iu6oHt+j5BXGdvC3sFIbQn0UwDc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Pink\attackers\Axe_Class\Character_Movements\tree_man2.xnb" size="21499">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>rN9lsZZLHhXM/NaPbs4vlqIJvWM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Pink\attackers\Axe_Class\Character_Movements\tree_man3.xnb" size="21499">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>fCffMrNCxMGhoTrDlozmMuazu0U=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Pink\attackers\Axe_Class\journeyman.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ApEMs+EgKOFdTUwqVZ6nyFW/0YQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Pink\attackers\Axe_Class\tree_man.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>PzwpFbUbmgv2Byg1CVs2rKYblPc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Pink\attackers\spearmen\halberd.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>+nomFVPhQ710GK5/CZBpP6h8uY0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Pink\attackers\Stealth\assassin.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ODnm7Z0D9Zm013LsU4lpyI/jsVc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Pink\attackers\Swordsman\Character_Movements\knight2.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>qp++8rWmCXnprky0odpZjz2Db8w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Pink\attackers\Swordsman\Character_Movements\knight3.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>hUpQ4B1Y/Uz88exGd8mB/bG2MT8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Pink\attackers\Swordsman\Character_Movements\swordman_better2.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>NVBYBq9yA0x2vVXvpDPHJEDbDQE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Pink\attackers\Swordsman\Character_Movements\swordman_better3.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>7L6paMOsmXaEexESnGPfcQvkIUk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Pink\attackers\Swordsman\Character_Movements\swordsman2.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>UQ0lmbjz0HecZmBYQE4dVk7mhFU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Pink\attackers\Swordsman\Character_Movements\swordsman3.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>+tDgib0XOyqIc1ZinSfdz1zxmvw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Pink\attackers\Swordsman\knight.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>JyYMWiEN1iub6uZ1gIw8E5U/nME=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Pink\attackers\Swordsman\swordman_better.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>+xzxRx8vmPZgoATMrEkLVyzLSqQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Pink\attackers\Swordsman\swordsman.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Miq8aklQd72aA2ua9gCz7CC1SVc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Purple\attackers\Axe_Class\axe_man.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>m8c0ZCSCEiQOgvAsoX0csqcsEZM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Purple\attackers\Axe_Class\Character_Movements\axe_man2.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>yAjIPCR64Ha28nSiTZ1CpaHh/x4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Purple\attackers\Axe_Class\Character_Movements\axe_man3.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>fKp9WmKeyQ7kmGllEeUdncApMzk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Purple\attackers\Axe_Class\Character_Movements\journeyman2.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>GW925T1VtKUCAGAYu4dkpnfyJ8Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Purple\attackers\Axe_Class\Character_Movements\journeyman3.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Ip4FDCcnGKvOSC83rBS3Hq0Hgrc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Purple\attackers\Axe_Class\Character_Movements\tree_man2.xnb" size="21499">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>/eLovUb01T/BsmabXopv1ew2Fss=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Purple\attackers\Axe_Class\Character_Movements\tree_man3.xnb" size="21499">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>7Lkmn7b7HDGSjCAgq4jnDI3nUXY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Purple\attackers\Axe_Class\journeyman.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>frQNYVrrEnSwQS857OPNq3qFfd8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Purple\attackers\Axe_Class\tree_man.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>DXu4sjWVnsJU9H4iu39t50Jv+P8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Purple\attackers\spearmen\halberd.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>iLa7BIzxtoDbj5TGpWAt+t+Ak3o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Purple\attackers\Stealth\assassin.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>xXfcbm0yflxr5BnTOlrU8iR9bxk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Purple\attackers\Swordsman\Character_Movements\knight2.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>kVGILOMIBy5ng/0flwhL5sf3Cw4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Purple\attackers\Swordsman\Character_Movements\knight3.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>mF/RcZ2PN/CE/5pTyED4nBjqOqY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Purple\attackers\Swordsman\Character_Movements\swordman_better2.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Nq0Xv6mNKdO/wJW/9LNrDEvhrTs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Purple\attackers\Swordsman\Character_Movements\swordman_better3.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>0PDjZXW4KIp0YGrUbk8eqbhQ7Yc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Purple\attackers\Swordsman\Character_Movements\swordsman2.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>loOXnNwcfYgbXUCDwLmeA2Z5QDw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Purple\attackers\Swordsman\Character_Movements\swordsman3.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>znPBo6BwarOkIS4PzfPplnupoi8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Purple\attackers\Swordsman\knight.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>vJG2KIrVmMwzd0OX+Cvm1XSE1No=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Purple\attackers\Swordsman\swordman_better.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>JWLxLbVNy4zF4rK2M25DEFHngKA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Purple\attackers\Swordsman\swordsman.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>M8ABg96jE15NFKw6a3AEwz/R5sc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Red\attackers\Axe_Class\axe_man.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>pvphuT+lVKibd6W7EY4k7/LMnvg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Red\attackers\Axe_Class\Character_Movements\axe_man2.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>KIO/de9a3GydCb1VTp6fbsOPKYQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Red\attackers\Axe_Class\Character_Movements\axe_man3.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>YTkT/FQYdcdvJT1nw8A4wc8Zzko=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Red\attackers\Axe_Class\Character_Movements\journeyman2.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>5odGt+sRbHjuGz59XxlyqUB+ds8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Red\attackers\Axe_Class\Character_Movements\journeyman3.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>PGz6/j/heMz86JM0XOpQQ4uUxGI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Red\attackers\Axe_Class\Character_Movements\tree_man2.xnb" size="21499">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>xNioIbvqk0WiOoH2MJtw5pKxudQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Red\attackers\Axe_Class\Character_Movements\tree_man3.xnb" size="21499">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>mP5eIfyX0iLH09CBKgWisRgKUGM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Red\attackers\Axe_Class\journeyman.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>6KiUV1V423IK5/e+a1ZUN0Lo7T4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Red\attackers\Axe_Class\tree_man.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Bqye/DkKu/zEWws4zcXlUVAF6hk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Red\attackers\spearmen\halberd.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>q3r7jfld7MouDp4YFFPl6DwLxPY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Red\attackers\Stealth\assassin.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>4vKJRmgoetC6tkRxRfOQUJ+7cy0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Red\attackers\Swordsman\Character_Movements\knight2.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>3Eu7ucTnKPQ6ztnNgvn58UkFsKc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Red\attackers\Swordsman\Character_Movements\knight3.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>abo1pQsnTItWJkfJDhwK90PJxbY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Red\attackers\Swordsman\Character_Movements\swordman_better2.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>F+dObildDCf3LYPxF4lksCH7jB0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Red\attackers\Swordsman\Character_Movements\swordman_better3.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Ozla1GghL0GbpmRTMUeZaOpQGjE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Red\attackers\Swordsman\Character_Movements\swordsman2.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>qs0o0wE+D2N7JyaxLANeXBJkNNE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Red\attackers\Swordsman\Character_Movements\swordsman3.xnb" size="23587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>si+CWOZKr3u65PnY0UEAiqywv5M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Red\attackers\Swordsman\knight.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>BPDMqq9osRJLNgNJOwLWOf0I8Rs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Red\attackers\Swordsman\swordman_better.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>QrRtHhipsomOFADw04q+mxAy/o8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Sprites\Red\attackers\Swordsman\swordsman.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>FJfSoPF4g6U1v4ULKVdhknvJQmc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Textures\Asset\allydot.xnb" size="383">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>/gWbp+3ZfjE4JTAQs8PGEff0Cec=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Textures\Asset\badselector.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>MSNAQ5knCxgZrnA6OuBcCgrfF1o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Textures\Asset\badspace.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>nhWhljmj1xtpXSDX4/0kd4uvxCs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Textures\Asset\colortexture.xnb" size="191">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>sWoOIxaW2jPecL4UGjwlUTcyWSI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Textures\Asset\delete.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>kiSLR3OJgAQzjzpUIo4IWJhffpw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Textures\Asset\enemydot.xnb" size="383">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Np7/PZMn4A/kBNSzMNWQbbJtdvE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Textures\Asset\goodselector.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>uXknsSZdOsIb/atsHF/Ncd0d3Fk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Textures\Asset\goodspace.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>iHAI3jDMcvr4+8sjPGC5yq5g2T0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Textures\Asset\npcdot.xnb" size="383">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>wyWQrazLdjXaVVx1S0yDMEOFwRs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Textures\Asset\rupee.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>zW8u489oPLnbAEuJdVC6wxYRMdk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Textures\coal.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>lD1NcuRyK12ho5OEU3Ewa+0+KDg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Textures\diamond.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>viMACZINJWFvkOAaxmDmiu2QHp8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Textures\dirt.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>9erYiB0a4lYu5cH1UgcA3ED/uIg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Textures\grass.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>kJ48wTSJrDBK5CGWG22tepzUy7Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Textures\iron.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>X0b+orYaA4n9taalao5OEWGFCtw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Game.ico" size="4286">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>/y21PfwGnUAkwpPwwaFuIIyWENo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="GameThumbnail.png" size="5734">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>diNvdcDpDtGEMuMQIHpkKK3qVHc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Saves.mdf" size="1769472" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>BlvbIQOqxtNEyw+dGTPQWjeooUc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Saves_log.LDF" size="516096" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>5bfNj7T5c44DhyaLjNUJBagv8N0=</dsig:DigestValue>
+    </hash>
+  </file>
+</asmv1:assembly>

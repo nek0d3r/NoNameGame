@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SavesModelStoreContainer" CdmEntityContainer="SavesEntities">
+    <EntitySetMapping Name="Data">
+      <EntityTypeMapping TypeName="SavesModel.Datum">
+        <MappingFragment StoreEntitySet="Data">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="difficulty" ColumnName="difficulty" />
+          <ScalarProperty Name="territory" ColumnName="territory" />
+          <ScalarProperty Name="units" ColumnName="units" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

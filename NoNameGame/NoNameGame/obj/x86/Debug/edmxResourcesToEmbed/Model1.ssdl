@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SavesModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="SavesModelStoreContainer">
+    <EntitySet Name="Data" EntityType="SavesModel.Store.Data" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="Data">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="nchar" Nullable="false" MaxLength="10" />
+    <Property Name="difficulty" Type="nchar" Nullable="false" MaxLength="10" />
+    <Property Name="territory" Type="int" Nullable="false" />
+    <Property Name="units" Type="int" Nullable="false" />
+  </EntityType>
+</Schema>
